@@ -16,7 +16,7 @@ const avatars = [
 const HeroSection = () => {
   return (
     
-        <section className=" flex flex-col items-center min-h-screen justify-center bg-[url('/assets/heroBanner.png')] bg-cover bg-center bg-no-repeat px-4 pt-20">
+        <section className=" flex flex-col items-center min-h-screen justify-center bg-[url('/assets/about1.png')] bg-cover bg-center bg-no-repeat px-4 pt-20">
             <Animated y={-20} delay={0.2}>
                 
                 <p className=' text-orange-600'>

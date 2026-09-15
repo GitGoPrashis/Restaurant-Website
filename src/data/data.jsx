@@ -1,18 +1,18 @@
 export const statsData = [
     {
-        number: "01",
-        title: "Premium Ingredients",
-        description: "We carefully source the freshest ingredients to create dishes full of authentic flavor."
+        number: "10K",
+        title: "Happy Customers",
+        description: "Thousands of food lovers have enjoyed our delicious meals and experienced the warm hospitality of Bhojan Bhomi."
     },
     {
-        number: "02",
-        title: "Chef's Expertise",
-        description: "Every recipe is prepared with precision, creativity, and years of culinary experience."
+        number: "50+",
+        title: "Delicious Dishes",
+        description: "Explore a diverse selection of authentic Nepali dishes, traditional favorites, snacks, refreshing drinks, and more."
     },
     {
-        number: "03",
-        title: "Warm Hospitality",
-        description: "Our dedicated team ensures every guest enjoys exceptional service from start to finish."
+        number: "4.7/5",
+        title: "Customer Rating",
+        description: "Our commitment to great taste, fresh ingredients, quality service, and memorable dining experiences keeps our customers coming back."
     }
 ];
 

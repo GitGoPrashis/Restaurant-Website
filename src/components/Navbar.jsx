@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { navLinks } from '../data/data'
 import { MenuIcon, XIcon } from 'lucide-react'
 import { useState } from 'react'
@@ -6,13 +6,23 @@ import { useState } from 'react'
 const Navbar = () => {
 
     const[mobileOpen, setMobileOpen] = useState(false)
+    const[scrolled, setScrolled] = useState(false)
+
+    useEffect(()=>{
+        const handleScroll = ()=>{
+            setScrolled(window.scrollY > 10)
+        };
+        window.addEventListener("scroll", handleScroll);
+        return ()=> window.removeEventListener("scroll", handleScroll)
+
+    },[])
 
 
 
 
   return (
     <>
-    <nav className=' fixed top-0 z-20 px-auto w-full transition-all duration-300 bg-transparent'>
+    <nav className={`fixed top-0 z-20 px-auto w-full transition-all duration-300 ${scrolled ? ' bg-white/70 backdrop-blur-md' : 'bg-transparent'} `}>
         <div className=' flex items-center justify-between font-medium py-4 mx-auto max-w-7xl'>
             <a href="/">
             <img className=' w-30 h-30' src="/assets/logo2.png" alt="logo" />
@@ -40,7 +50,7 @@ const Navbar = () => {
     </nav>
     {/* mobile navigation */}
     <div className= {`flex flex-col items-center justify-center p-8 fixed inset-0 bg-white/70 backdrop-blur-md z-40 transform duration-300 ${mobileOpen ? 'translate-x-0' :' translate-x-full'} `} >
-        <div className=' flex flex-col items-center space-y-6 font-medium'>
+        <div className=' flex flex-col items-center space-y-6 font-bold  '>
             {navLinks.map((link)=>(
                 <a key={link.name} href={link.href} className=' text-2xl text-zinc-800 hover:text-orange-400 transition'
                 onClick={()=> setMobileOpen(false)}
