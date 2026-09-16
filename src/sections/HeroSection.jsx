@@ -58,6 +58,7 @@ const HeroSection = () => {
                 </div>
 
             </Animated>
+            
 
         </section>
       

@@ -19,51 +19,87 @@ export const statsData = [
 export const dishes = [
     {
         id: "01",
-        img: "/assets/dish1.png",
+        img: "/assets/dish10.png",
         title: "Grilled Chicken Alfredo",
-        price: "$24"
+        price: "RS. 530"
+    },
+    {
+        id: "02",
+        img: "/assets/dish11.png",
+        title: "Grilled Chicken Alfredo",
+        price: "RS. 530"
+    },
+    {
+        id: "01",
+        img: "/assets/dish12.png",
+        title: "Grilled Chicken Alfredo",
+        price: "RS. 530"
+    },
+    {
+        id: "01",
+        img: "/assets/dish13.png",
+        title: "Grilled Chicken Alfredo",
+        price: "RS. 530"
+    },
+    {
+        id: "01",
+        img: "/assets/dish14.png",
+        title: "Grilled Chicken Alfredo",
+        price: "RS. 530"
     },
     {
         id: "02",
         img: "/assets/dish2.png",
         title: "Mushroom Risotto",
-        price: "$22"
+        price: "Rs. 420"
     },
     {
         id: "03",
         img: "/assets/dish3.png",
         title: "Caprese Salad",
-        price: "$16"
+        price: "Rs. 200"
     },
     {
         id: "04",
         img: "/assets/dish4.png",
         title: "Spaghetti & Meatballs",
-        price: "$23"
+        price: "Rs. 1000"
+    },
+    {
+        id: "01",
+        img: "/assets/dish1.png",
+        title: "Grilled Chicken Alfredo",
+        price: "RS. 530"
     },
     {
         id: "05",
         img: "/assets/dish5.png",
         title: "Caesar Salad",
-        price: "$15"
+        price: "Rs. 600"
     },
     {
         id: "06",
         img: "/assets/dish6.png",
         title: "Grilled Atlantic Salmon",
-        price: "$29"
+        price: "Rs. 200"
     },
     {
         id: "07",
         img: "/assets/dish7.png",
         title: "Grilled Ribeye Steak",
-        price: "$39"
+        price: "Rs. 450"
     },
     {
         id: "08",
         img: "/assets/dish8.png",
         title: "Seafood Linguine",
-        price: "$29"
+        price: "Rs. 220"
+    },
+     {
+        id: "09",
+        img: "/assets/dish9.png",
+        title: "sliced grilled chicken breast ",
+        price: "Rs. 200"
     }
 ];
 

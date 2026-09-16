@@ -8,7 +8,7 @@ const About = () => {
             <div className=' flex flex-col md:flex-row gap-14 md:gap-10 max-w-7xl mx-auto'>
                 {/* for left side */}
                 <Animated scale={0.8} y={0}>
-                    <img src="/assets/about.png" alt="Dish" className=' max-w-137 w-full h-full object-cover rounded-3xl' />
+                    <img src="/assets/about3.png" alt="Dish" className=' max-w-137 w-full h-full object-cover rounded-3xl' />
                 </Animated>
 
                 {/* for right side */}
@@ -39,7 +39,7 @@ const About = () => {
 
                 </Animated>
                 <Animated className=" mt-9 bg-orange-400 text-white p-2 pr-8 rounded-lg flex items-center gap-3 w-fit">
-                      <img src="/assets/about.png" alt="Location" className=' size-15 rounded-lg object-cover shrink-0' />
+                      <img src="/assets/about3.png" alt="Location" className=' size-15 rounded-lg object-cover shrink-0' />
                       <div className=' flex flex-col gap-2'>
                         <p className=' font-medium'>Kathmandu, Nepal</p>
                         <a href="">view on map</a>
