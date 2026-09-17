@@ -26,20 +26,7 @@ const [rotate, setRotate] = useState({})
           
 
           </div>
-          {/* <div className=' grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-18 max-w-5xl mx-auto'>
-            {dishes.map((dish, index)=>(
-              <Animated key={index} y={80} delay={index * 0.1} className=' flex flex-col items-center text-center shrink-0 cursor-pointer'>
-                <motion.div animate={{rotate: rotate[index] || 0}} transition={{type: "spring", stiffness: 80, damping: 15}}>
-
-               <img src={dish.img} alt= {dish.title} className=' size-30 md:size-35 object-cover' />
-                </motion.div>
-                
-
-              </Animated>
-
-            ))}
-
-          </div> */}
+        
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-18 max-w-5xl mx-auto">
   {dishes.map((dish, index) => (
     <Animated
