@@ -17,7 +17,7 @@ const [rotate, setRotate] = useState({})
               </p>
             </Animated>
              <Animated>
-             <h2 className=' text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
+             <h2 className=' text-4xl md:text-5xl  max-w-lg mx-auto text-balance '>
              Explore Our Delicious Dishes
 
              </h2>

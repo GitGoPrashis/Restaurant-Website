@@ -22,7 +22,7 @@ const Features = () => {
                     </p>
                 </Animated>
                 <Animated>
-                    <h2 className=' text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
+                    <h2 className=' font-bold text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
                         Why Choose Bhojan Bhumi?
                     </h2>
                 </Animated>

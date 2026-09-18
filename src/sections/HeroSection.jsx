@@ -25,7 +25,7 @@ const HeroSection = () => {
                 </p>
             </Animated>
             <Animated>
-                <h1 className=" text-5xl md:text-6xl font-medium max-w-3xl text-center mt-5 font-urbanist text-balance">
+                <h1 className=" text-5xl md:text-6xl font-bold max-w-3xl text-center mt-5 font-urbanist text-balance">
                     Taste the Authentic Flavors of  Nepal
                 </h1>
             </Animated>

@@ -23,10 +23,13 @@ const About = () => {
                 </Animated>
 
                  <Animated scale={0.8} y={0} className=" flex items-center gap-2">
-                    <h2 className='mt-5 text-4xl md:text-5xl text-balance'>
+                    <h2 className='mt-5 text-4xl md:text-5xl text-balance font-bold'>
                         Where Tradition Meets Taste
 
                     </h2>
+                    {/* <h2 className='text-4xl md:text-5xl font-bold text-gray-900'>
+
+                    </h2> */}
                        
                       
                         

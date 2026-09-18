@@ -31,7 +31,7 @@ const Navbar = () => {
             {/* navigation links */}
             <div className=' hidden md:flex items-center gap-10'>
                 { navLinks.map((link)=>(
-                    <a key={link.name} href={link.href} className=' hover:text-zinc-600'>
+                    <a key={link.name} href={link.href} className=' font-bold hover:text-zinc-600'>
                         {link.name}
                     </a>
 
