@@ -11,6 +11,7 @@ import OpeningHours from './sections/Openinghour'
 import TestimonialSection from './sections/TestimonialSection'
 import Dishes from './sections/Dishes'
 import Faq from './sections/Faq'
+import Cta from './sections/Cta'
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
     <OpeningHours/>
     <TestimonialSection/>
     <Faq/>
+    <Cta/>
     
     
    
