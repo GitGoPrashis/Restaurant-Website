@@ -94,13 +94,11 @@ const Footer = () => {
     {/* for watermark */}
     <div className=' absolute inset-0 text-center select-none -z-1 pointer-events-none'>
       <span className=' text-[300px] tracking-wide font-urbanist font-semibold text-zinc-100/70'>
-      Bhojan Bhumi
+      Bhojan
 
       </span>
-
     </div>
-
-   </footer>
+</footer>
   )
 }
 
