@@ -12,6 +12,7 @@ import TestimonialSection from './sections/TestimonialSection'
 import Dishes from './sections/Dishes'
 import Faq from './sections/Faq'
 import Cta from './sections/Cta'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
     <TestimonialSection/>
     <Faq/>
     <Cta/>
+    <Footer/>
     
     
    
