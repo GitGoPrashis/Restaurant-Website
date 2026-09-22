@@ -138,3 +138,8 @@ BIM Student | Frontend & MERN Stack Learner
 ### 🍽️ Bhojan Bhumi
 
 **Authentic Taste. Memorable Moments.**
+
+## Preview
+
+![Bhojan Bhumi Website](./screenshort/homeimg.png)
+
